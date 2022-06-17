@@ -1,0 +1,11 @@
+curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/api/mobile-devices/ -d "{\"mobile_name\":\"LG\",\"mobile_price\":\"41000\",\"mobile_quantity\":\"2\"}"
+
+
+curl -X GET http://127.0.0.1:8000/api/mobile-devices/
+
+
+curl -X PATCH http://127.0.0.1:8000/api/mobile-devices/1 -H 'Content-Type: application/json' -d '{"mobile_quantity":6}'
+
+
+curl -X "DELETE" http://127.0.0.1:8000/api/mobile-devices/1
+
