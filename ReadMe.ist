@@ -1,3 +1,17 @@
+Step1: 
+
+Clone the code 
+
+Step2:
+
+manage.py runserver
+
+step3:
+
+launch the URL https:\\127.0.0.1\mobile_devices
+
+
+
 curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/api/mobile-devices/ -d "{\"mobile_name\":\"LG\",\"mobile_price\":\"41000\",\"mobile_quantity\":\"2\"}"
 
 
